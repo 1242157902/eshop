@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<named-config name="mydb01">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/mydb01</property>
+		<property name="user">wzq</property>
+		<property name="password">11111</property>
+		<property name="acquireIncrement">5</property>
+		<property name="initialPoolSize">10</property>
+		<property name="minPoolSize">5</property>
+		<property name="maxPoolSize">100</property>
+	</named-config>
+	
+	
+	<named-config name="default">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/defaultshop</property>
+		<property name="user">wzq</property>
+		<property name="password">11111</property>
+		<property name="acquireIncrement">5</property>
+		<property name="initialPoolSize">10</property>
+		<property name="minPoolSize">5</property>
+		<property name="maxPoolSize">100</property>
+	</named-config>
+	
+	
+	<named-config name="ncut">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/ncutshop</property>
+		<property name="user">wzq</property>
+		<property name="password">11111</property>
+		<property name="acquireIncrement">5</property>
+		<property name="initialPoolSize">10</property>
+		<property name="minPoolSize">5</property>
+		<property name="maxPoolSize">100</property>
+	</named-config>
+	
+	
+	<named-config name="dxt">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://10.5.113.254:3306/dxtshop</property>
+		<property name="user">wzq</property>
+		<property name="password">11111</property>
+		<property name="acquireIncrement">5</property>
+		<property name="initialPoolSize">10</property>
+		<property name="minPoolSize">5</property>
+		<property name="maxPoolSize">100</property>
+	</named-config>
+	
+	
+</c3p0-config>
+
