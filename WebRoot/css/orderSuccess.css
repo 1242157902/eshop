@@ -1,0 +1,71 @@
+/*orderSuccess*/
+.s-info{
+    border: medium none;
+    margin-bottom: 16px;
+	border-radius: 4px;
+    font-family: Verdana;
+	overflow: visible;
+	margin-top:25px;
+}
+.s-box{
+	background: #f3fded none repeat scroll 0 0;
+    border-top: 2px solid #7abd54;
+    padding-right: 20px;
+    position: relative;
+}
+.s-t{
+	height: 32px;
+    overflow: visible;
+}
+.gx{
+	font-family: 微软雅黑;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+	margin-left:10px;
+	margin-top:20px;
+	color:#7abd54;
+}
+.list-order{
+	background-color: #fff;
+    border-top: 1px solid #e6e6e6;
+    margin-bottom: 8px;
+}
+.li-st{
+	border-bottom: 1px solid #e6e6e6;
+    color: #333;
+    overflow: hidden;
+    padding: 10px;
+	width:100%;
+	background-color:#fff;
+}
+.s-detail{
+	overflow:hidden;
+}
+.for1,.li-st,.for2{
+	margin-right:40px;
+}
+.for1,.li-st,.for2,.for3{
+	float:left;
+}
+.s-info a:link,.s-info a:visited{
+	color:#005a9d;
+}
+.zfjf{
+	color:#e4393c;
+}
+.li-st .for3{
+	
+}
+
+.s-more {
+    
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 0;
+	margin-left:10px;
+}
+/*orderSuccess*/
+
+
